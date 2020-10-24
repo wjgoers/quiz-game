@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="class"><a href=""></a></div>
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    <div class="wrapper"></div>
+        <div id="wrapper">
+            <div id="start-screen" class="start">
+                <h1>JS Quiz</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui tempore illo iste, iure at facere suscipit atque incidunt sint, sit placeat. Rem, et cupiditate expedita sed ipsum consequuntur nemo accusantium.</p>
+                <button id="start">Start the Game!</button>
+            </div>
+
+            <div id="questions" class="hide">
+                <h3 id="question-title"></h3>
+                <div id="choices"></div>
+                <div id="feedback" class="hide"></div>
+                <div id="end-screen" class="hide"></div>
+            <h4>All Done!</h4>
+            <p>Score: <span id="final-score"></span></p>
+            <p>Enter Initials: <input type="text" id="initials"/></p>
+            </div>
+
+        </div>
+
+
+
+<script src = "./logic.js"> </script>
+<script src = "./questions.js"> </script>
+</body>
+</html>
